@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.javatechig.serviceexample" >
+          package="com.javatechig.serviceexample" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
         android:allowBackup="true"
@@ -19,7 +22,7 @@
 
         <!--Service declared in manifest -->
         <service android:name=".HelloService"
-            android:exported="false"/>
+                 android:exported="false"/>
     </application>
 
 </manifest>
