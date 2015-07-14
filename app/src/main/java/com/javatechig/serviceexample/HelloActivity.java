@@ -15,6 +15,8 @@ public class HelloActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello);
 
+        // test
+
 
         //starting service
         findViewById(R.id.start_service).setOnClickListener(new View.OnClickListener() {
